@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel with King</title>
+    
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    <style>
+        .hero-section {
+            
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: black;
+        }
+        .hero-section h1 {
+            padding-top: 100px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
+
     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Travel With King</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="hero-section text-center">
+        <h1>Explore the World with King</h1>
+        <p>Discover beautiful destinations and travel like never before</p>
+        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+
+    
+    <section class="container">
+        <h2 class="text-center">Popular Destinations</h2>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/King.jpeg" class="card-img-top" alt="King">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris, France</h5>
+                        <p class="card-text">Experience the charm of the Eiffel Tower and other historic sites.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/King.jpeg" class="card-img-top" alt="King">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo, Japan</h5>
+                        <p class="card-text">Dive into the modern marvels and ancient temples of Tokyo.</p>
+                        <a href="#" class="btn btn-warning">Can't Wait!</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/King.jpeg" class="card-img-top" alt="King">
+                    <div class="card-body">
+                        <h5 class="card-title">Sydney, Australia</h5>
+                        <p class="card-text">Visit the Sydney Opera House and enjoy the beautiful beaches.</p>
+                        <a href="#" class="btn btn-danger">Let's Go!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer text-center">
+        <div class="container">
+            <p>© 2024 Travel With King. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="#" class="text-white">Facebook</a> | 
+                <a href="#" class="text-white">Twitter</a> | 
+                <a href="#" class="text-white">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
